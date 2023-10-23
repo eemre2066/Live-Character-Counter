@@ -1,0 +1,37 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: skyblue;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+form textarea {
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    resize: none;
+
+}
+
+
+form .sonuc {
+   
+    margin-top: 15px;
+}
